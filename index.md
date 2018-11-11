@@ -5,8 +5,8 @@ venue: "The Turing Institute, London"
 address: "The Turing Institute, The British Library, London"
 country: "UK"
 language: "English"
-latlng: "55.962860, -3.231860"
-humandate: "6 December 2018"
+latlng: "51.529001,-0.127147
+humandate: "6-7 December 2018"
 humantime: "10:00 - 17:00"
 startdate: 2018-11-06
 enddate: 2018-11-07
@@ -152,9 +152,11 @@ By the end of this workshop, students will know how to:
 <hr/>
 
 > ## Prerequisites
+> There are no prerequisites for this lesson
 {: .prereq}
 
 ### Getting Started
+<h2 id="setup">Getting Started</h2>
 To get started, follow the directions on the "[Setup](setup/)" page to ensure you have
 an SSH client installed.
 
