@@ -30,6 +30,8 @@ By the end of this workshop, students will know how to:
    - Be able to use software modules to access different HPC software
    - Be able to work effectively on a remote shared resource
 
+The material for the second part of this workshop is available at: [https://archer-cse.github.io/2018-12-06-turing-hpcintro/](https://archer-cse.github.io/2018-12-06-turing-hpcintro/)
+
 
 <h2 id="general">General Information</h2>
 
