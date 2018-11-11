@@ -25,12 +25,11 @@ overview of the tools available and how to use them effectively.
 
 By the end of this workshop, students will know how to:
 
-* Use the UNIX command line to operate a computer, connect to a cluster, and write simple shell
-  scripts.
-* Submit and manage jobs on a cluster using a scheduler, transfer files, and use software through
-  environment modules.
-* Learn the fundamentals of programming in Python or Chapel.
-* Understand parallel programming strategies, and write basic parallel code in Python or Chapel.
+   - Know how to connect to remote HPC systems and transfer data
+   - Know how to use a scheduler to work on a shared system
+   - Be able to use software modules to access different HPC software
+   - Be able to work effectively on a remote shared resource
+
 
 <h2 id="general">General Information</h2>
 
