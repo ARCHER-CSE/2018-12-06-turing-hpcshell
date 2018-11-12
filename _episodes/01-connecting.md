@@ -1,7 +1,7 @@
 ---
 title: "Connecting to the cluster"
-teaching: 15 
-exercises: 5
+teaching: 20 
+exercises: 10
 questions:
 - "How do I open a terminal?"
 - "How do I connect to a remote computer?"
