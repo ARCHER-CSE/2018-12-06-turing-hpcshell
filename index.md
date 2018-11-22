@@ -2,11 +2,11 @@
 layout: lesson
 carpentry: "swc"
 venue: "The Turing Institute, London"
-address: "The Turing Institute, The British Library, London"
+address: "The Alan Turing Institute, The British Library, London"
 country: "UK"
 language: "English"
 latlng: "51.529001,-0.127147"
-humandate: "6-7 December 2018"
+humandate: "10:00-17:00, 6 December 2018, 09:00-16:00 7 December 2018"
 humantime: "10:00 - 17:00"
 startdate: 2018-11-06
 enddate: 2018-11-07
