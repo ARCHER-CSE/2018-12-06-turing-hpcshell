@@ -64,6 +64,14 @@ instructor_post_survey: "https://www.surveymonkey.com/r/instructor_training_post
 # Start time in minutes (0 to be clock-independent, 540 to show a start at 09:00 am).
 start_time: 600
 
+# Local host and scheduler options
+workshop_host: "Cirrus"
+workshop_host_id: "EPCC_Cirrus"
+workshop_host_login: "login.archer.ac.uk"
+workshop_host_location: "EPCC, The University of Edinburgh"
+workshop_host_ip: "129.215.175.28"
+workshow_host_prompt: "[yourUsername@cirrus-login0 ~]$ "
+
 # Specify that things in the episodes collection should be output.
 collections:
   episodes:
@@ -86,7 +94,7 @@ defaults:
       layout: episode
   - scope:
       path: ""
-      type: extras
+     type: extras
     values:
       root: ..
       layout: page
