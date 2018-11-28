@@ -103,6 +103,7 @@ highlighter: rouge
 # Local host and scheduler options
 workshop_host: "Cirrus"
 workshop_host_id: "EPCC_Cirrus"
-workshop_host_login: "login.archer.ac.uk"
+workshop_host_login: "login.cirrus.ac.uk"
 workshop_host_location: "EPCC, The University of Edinburgh"
 workshop_host_ip: "129.215.175.28"
+workshop_host_prompt: "[yourUsername@cirrus-login0 ~]$ "

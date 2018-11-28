@@ -119,8 +119,8 @@ ECDSA key fingerprint is SHA256:JRj286Pkqh6aeO5zx1QUkS8un5fpcapmezusceSGhok.
 ECDSA key fingerprint is MD5:99:59:db:b1:3f:18:d0:2c:49:4e:c2:74:86:ac:f7:c6.
 Are you sure you want to continue connecting (yes/no)?  # type "yes"!
 Warning: Permanently added the ECDSA host key for IP address '{{ site.workshop_host_ip }}' to the list of known hosts.
-yourUsername@g{{ site.workshop_host_login }}'s password:  # no text appears as you enter your password
-Last login: Wed Jun 28 16:16:20 2017 from s2.n59.queensu.ca
+yourUsername@{{ site.workshop_host_login }}'s password:  # no text appears as you enter your password
+Last login: Wed Nov 28 08:46:30 2018 from cpc102380-sgyl38-2-0-cust601.18-2.cable.virginm.net
 
 {% include /snippets/01/motd.{{ site.workshop_host_id }} %}
 ```
