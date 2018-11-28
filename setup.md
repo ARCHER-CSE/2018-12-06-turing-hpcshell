@@ -42,8 +42,8 @@ you for the duration of the course and for a few weeks afterwards, to allow you 
 complete the practical exercises and put some of what you have learned into practice.
 
 To sign up, you must first register for an account on SAFE (our service administration
-web application): https://tier2-safe.readthedocs.io/en/latest/safe-guide-users.html
+web application): [https://tier2-safe.readthedocs.io/en/latest/safe-guide-users.html](https://tier2-safe.readthedocs.io/en/latest/safe-guide-users.html)
 
-and then request your Cirrus machine account under project `tc001`: https://tier2-safe.readthedocs.io/en/latest/safe-guide-users.html#tier-2-facilities-accounts-passwords
+and then request your Cirrus machine account under project `tc001`: [https://tier2-safe.readthedocs.io/en/latest/safe-guide-users.html#tier-2-facilities-accounts-passwords](https://tier2-safe.readthedocs.io/en/latest/safe-guide-users.html#tier-2-facilities-accounts-passwords)
 
 
