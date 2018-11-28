@@ -122,7 +122,7 @@ Warning: Permanently added the ECDSA host key for IP address '{{ site.workshop_h
 yourUsername@g{{ site.workshop_host_login }}'s password:  # no text appears as you enter your password
 Last login: Wed Jun 28 16:16:20 2017 from s2.n59.queensu.ca
 
-{% include /snippets/01/motd.{{ site.workshop_host }} %}
+{% include /snippets/01/motd.{{ site.workshop_host_id }} %}
 ```
 
 If you've connected successfully, you should see a prompt like the one below. This prompt is
