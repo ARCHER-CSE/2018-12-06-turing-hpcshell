@@ -285,7 +285,7 @@ SRR307030_2.fastq
 >
 > * `gunzip` unzips .gz files
 > * `unzip` unzips .zip files
-> * `unrar` unzips .rar files
+> * `unrar` unzips .rar files (not available on many systems)
 > * `tar -xvf` unzips .tar.gz and .tar.bz2 files
 {: .callout}
 
