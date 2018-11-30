@@ -155,17 +155,15 @@ $ wc -l *
 > > mv *.fastq fastq/
 > > ```
 > > {: .language-bash}
-> > 
-> > i.e. *anything or nothing* then `fb` then *anything or nothing*
 > {: .solution}
 {: .challenge}
 
 ## Redirecting output
 
-Each of the commands we've used so far does only a very small amount of work. However, it's
-extremely easy to chain these small UNIX commands together to perform otherwise complicated actions!
+Each of the commands we've used so far does only a very small amount of work. However,
+we can chain these small UNIX commands together to perform otherwise complicated actions!
 
-For our first foray into "piping", or redirecting output, we are going to use the `>` operator to
+For our first foray into *piping*, or redirecting output, we are going to use the `>` operator to
 write output to a file. When using `>`, whatever is on the left of the `>` is written to the
 filename you specify on the right of the arrow. The actual syntax looks like `command > filename`.
 
@@ -229,7 +227,7 @@ word_counts.txt`
 
 * `stderr` typically contains error messages and other information that doesn't quite fit into the
   category of "output". If we insist on redirecting both `stdout` and `stderr` to the same file we
-  would use `&>` instead of `>`.
+  would use `&>` instead of `>`. (We can redirect just `stderr` using `2>`.)
 
 Knowing what we know now, let's try re-running the command, and send all of the output (including
 the error message) to the same `word_counts.txt` files as before.
@@ -331,6 +329,15 @@ from that file.
 > ## Writing commands using pipes
 >
 > How many files are there in the "fastq" directory we made earlier? (Use the shell to do this.)
+> > ## Solution
+> > 
+> > ```
+> > ls fastq/ | wc -l
+> > ```
+> > {: .language-bash}
+> > 
+> > Output of `ls` is one line per item so counting lines gives the number of files.
+> {: .solution}
 {: .challenge}
 
 > ## Reading from compressed files
@@ -345,4 +352,13 @@ from that file.
 > `zcat` acts like `cat`, except that it can read information from `.gz` (compressed) files. Using
 > `zcat`, can you write a command to take a look at the top few lines of the
 > `gene_association.fb.gz` file (without decompressing the file itself)?
+> > ## Solution
+> > 
+> > ```
+> > zcat gene_association.fb.gz | head
+> > ```
+> > {: .language-bash}
+> > 
+> > The `head` command without any options shows the first 10 lines of a file
+> {: .solution}
 {: .challenge}
