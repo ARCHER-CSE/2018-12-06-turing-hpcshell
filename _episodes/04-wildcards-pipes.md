@@ -21,13 +21,13 @@ keypoints:
 > If you didn't get them in the last lesson, make sure to download the example files used in the
 > next few sections:
 > 
-> **Using wget** - `wget {{site.url}}/files/bash-lesson.tar.gz`
+> **Using wget** - `wget {{site.url}}{{site.baseurl}}/bash-lesson.tar.gz`
 >
 > **Using a web browser** -
-> [{{site.url}}/files/bash-lesson.tar.gz]({{site.url}}/files/bash-lesson.tar.gz)
+> [{{site.url}}{{site.baseurl}}/bash-lesson.tar.gz]({{site.url}}{{site.baseurl}}/bash-lesson.tar.gz)
 {: .testimonial}
 
-Now that we know most of the basic UNIX commands, we are going to explore some more advanced
+Now that we know some of the basic UNIX commands, we are going to explore some more advanced
 features. The first of these features is the wildcard `*`. In our examples before, we've done things
 to files one at a time and otherwise had to specify things explicitly. The `*` character lets us
 speed things up and do things across multiple files.
@@ -133,12 +133,31 @@ $ wc -l *
 > ## Multiple wildcards
 >
 > You can even use multiple `*`s at a time. How would you run `wc -l` on every file with "fb" in it?
+> > ## Solution
+> > 
+> > ```
+> > wc -l *fb*
+> > ```
+> > {: .language-bash}
+> > 
+> > i.e. *anything or nothing* then `fb` then *anything or nothing*
+> {: .solution}
 {: .challenge}
 
 > ## Using other commands
 >
 > Now let's try cleaning up our working directory a bit. Create a folder called "fastq" and move all
 > of our .fastq files there in one `mv` command.
+> > ## Solution
+> > 
+> > ```
+> > mkdir fastq
+> > mv *.fastq fastq/
+> > ```
+> > {: .language-bash}
+> > 
+> > i.e. *anything or nothing* then `fb` then *anything or nothing*
+> {: .solution}
 {: .challenge}
 
 ## Redirecting output
