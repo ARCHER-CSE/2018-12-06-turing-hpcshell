@@ -250,7 +250,7 @@ $ ls -l -a
 {: .language-bash}
 
 ```
-[arttc001@cirrus-login0 ~]$ ls -la
+{{ site.workshop_host_prompt }} ls -la
 total 36
 drwx--S--- 5 yourUsername tc001 4096 Nov 28 09:58 .
 drwxr-x--- 3 root         tc001 4096 Nov 28 09:40 ..
