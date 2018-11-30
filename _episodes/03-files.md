@@ -243,7 +243,7 @@ Let's grab and unpack a set of demo files for use later. To do this, we'll use `
 downloads a file from a link).
 
 ```
-wget {{site.url}}/{{site.baseurl}}/files/bash-lesson.tar.gz
+wget {{site.url}}{{site.baseurl}}/files/bash-lesson.tar.gz
 ```
 {: .language-bash}
 
